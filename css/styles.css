@@ -1,0 +1,76 @@
+.style-4::-webkit-scrollbar-track
+{
+	background: #ffffff;
+}
+
+.style-4::-webkit-scrollbar
+{
+	width: 10px;
+	background: transparent
+    ;
+}
+
+.style-4::-webkit-scrollbar-thumb
+{
+	background-color: #398dff;
+    border-radius: 50px;
+    height: 50px;
+	border: 1px solid rgb(33, 37, 41);
+    ;
+}
+.avatar{
+    width:48px;
+    height: 48px;
+    border-radius: 24px;
+}
+#avatarContainer{
+	background-color: #49535c;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+.unameContainer{
+	max-width: 20ch;
+}
+.unameContainer span{
+	color: #ffffff;
+}
+.dropdown-menu {
+    max-height: 7rem;
+    overflow-y: auto;
+}
+.btn-outline-primary{
+	color: #398dff;
+    border-color: #398dff;
+}
+.btn-outline-primary:hover{
+	color: #ffffff;
+    border-color: #398dff;
+	background-color: #398dff;
+}
+.btn-outline-primary:active{
+	color: #ffffff;
+    border-color: #84ace6;
+	background-color: #84ace6;
+}
+
+.form-control:focus {
+	border-color: #398dff;
+	box-shadow: 0 0 0 0.2rem rgba(30, 74, 133, 0.55);
+} 
+@media screen and (max-width: 991px) {
+	.navbar-collapse > *{
+		margin-top: 0.5rem;
+	}
+  }
+
+  @media screen and (max-width: 400px) {
+	.unameContainer{
+		max-width: 10ch;
+	}
+  }
