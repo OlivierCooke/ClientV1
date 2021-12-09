@@ -1,7 +1,9 @@
 body{
 	background-color:#5e6a75;
 }
-
+.image-upload > input{
+	display: none;
+}
 .glow{
 	box-shadow:0 1rem 3rem  #398dff;
 }
